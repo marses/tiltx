@@ -7,4 +7,4 @@ script:
   - python setup.py
   - pip install -e .
 script:
-  - python tests.py
+  - python tests/tests.py
