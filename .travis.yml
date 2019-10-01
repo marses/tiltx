@@ -11,6 +11,3 @@ script:
 branches:
   only:
     - master
-branches:
-  only:
-    - master
