@@ -15,9 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Topic :: Scientific/Engineering :: Information Analysis"
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
 )
