@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-requirements = ["matplotlib", "numpy", "scikit-learn", "scipy"]
+requirements = ["matplotlib", "numpy", "scikit-learn", "scipy",]
 
 setuptools.setup(
     name="tiltx",
@@ -16,6 +16,7 @@ setuptools.setup(
     url="https://github.com/marses/tiltx",
     packages=setuptools.find_packages(),
     install_requires=requirements,
+    tests_requires=["pytest"]
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
