@@ -4,7 +4,6 @@ from tiltx.data_generator import DataGenerator
 from tiltx.feature_extractor import FeatureExtractor
 
 
-
 @pytest.mark.parametrize("RT_method", ['cumsum'])
 def test_example1(RT_method):
     """ """

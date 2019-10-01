@@ -7,4 +7,7 @@ script:
   - python setup.py
   - pip install -e .
 script:
-  - python tests/tests.py
+  - pytest
+branches:
+  only:
+    - master
