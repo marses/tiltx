@@ -2,6 +2,8 @@
 
 #### Feature extraction from mobile phone motion sensor data
 
+[![PyPI version](https://badge.fury.io/py/tiltx.svg)](https://badge.fury.io/py/tiltx)
+
 This repository implements a method which extracts some of the key features from mobile phone motion sensor data.
 
 At `t=0` a visual stimulus appears on the screen. As the response, a participant (person holding the phone) is required to tilt the phone in a specific direction (left, right, up, or down). Once the roll or picth angle reaches 0.5 radians (`t=T>0`), the movement is completed. `T` is the event time registered by the app. The rotaion along the third axis (yaw) *does not* affect the outcome of the task, hence it is neglected.
