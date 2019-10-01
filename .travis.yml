@@ -5,6 +5,12 @@ install:
   - pip install -r requirements.txt
 script:
   - python setup.py
+  - pip install -e .
+script:
+  - pytest
+branches:
+  only:
+    - master
 branches:
   only:
     - master
