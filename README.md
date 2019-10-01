@@ -8,6 +8,25 @@ At `t=0` a visual stimulus appears on the screen. As the response, a participant
 
 The features extracted by TiltX are: reaction time, L1 norms, maximal deviation, number of turning points, and sample entropy.
 
+## Installation  
+> Tested with Python 3.6 and 3.7
+
+**anaconda**
+```bash
+$ conda install -c conda-forge tiltx
+```
+
+**pip**
+```bash
+$ pip install tiltx
+```
+
+**Clone from GitHub**
+```bash
+$ git clone https://github.com/marses/tiltx
+$ python setup.py install
+```
+
 ## Usage
 These steps introduce how to use `TiltX`.
 
