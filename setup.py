@@ -16,10 +16,10 @@ setuptools.setup(
     url="https://github.com/marses/tiltx",
     packages=setuptools.find_packages(),
     install_requires=requirements,
-    tests_requires=["pytest"]
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
+    tests_requires=["pytest"],
     python_requires='>=3.6',
 )
