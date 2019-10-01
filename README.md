@@ -2,7 +2,7 @@
 
 #### Feature extraction from mobile phone motion sensor data
 
-[![PyPI version](https://badge.fury.io/py/tiltx.svg)](https://badge.fury.io/py/tiltx)
+[![PyPI version](https://badge.fury.io/py/tiltx.svg)](https://badge.fury.io/py/tiltx) [![Build Status](https://travis-ci.org/marses/tiltx.svg?branch=master)](https://travis-ci.org/marses/tiltx)
 
 This repository implements a method which extracts some of the key features from mobile phone motion sensor data.
 
