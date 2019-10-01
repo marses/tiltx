@@ -8,6 +8,3 @@ script:
   - pip install -e .
 script:
   - pytest
-branches:
-  only:
-    - master
